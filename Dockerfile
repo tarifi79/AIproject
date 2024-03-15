@@ -17,4 +17,7 @@ COPY server server/
 EXPOSE 5000
 
 # Specify the command to run your Flask application
-CMD ["python", "server/main.py"]
+#CMD ["python", "server/main.py"]
+
+CMD ["gunicorn", "-w 4", "-b :5000", "server.main:app"]
+
