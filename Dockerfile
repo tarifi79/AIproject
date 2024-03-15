@@ -18,6 +18,5 @@ EXPOSE 5000
 
 # Specify the command to run your Flask application
 #CMD ["python", "server/main.py"]
-
-CMD ["gunicorn", "-w 4", "-b :5000", "--timeout 120", "server.main:app"]
+CMD ["gunicorn", "-w", "4", "-b", ":5000", "--timeout", "120", "server.main:app"]
 
