@@ -2,7 +2,7 @@
 
 ### Tools used
 
-This was built with PyTorch/FastAI for the Machine Learning part and Flask as a Webserver. For containerization and easy deployment we will use Docker. The dataset in use is the [Food-101 Dataset] but we chose to only use 10 of the foods contained there.
+This was built with PyTorch/FastAI for the Machine Learning part and Flask as a Webserver. For containerization and easy deployment we will use Docker. The dataset in use is the https://course20.fast.ai/datasets.html but we chose to only use 10 of the foods contained there.
 
 ### Train your own Model
 
