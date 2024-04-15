@@ -52,8 +52,8 @@ docker run -p 5000:5000 group6_classifier
 
 ### Group Contribution
 
--Mohammed Darras: Data Training, Experiment in food list.
--Tony Han: Data Training, Experiment in food list.
--Prince Duru: API, Deployment, Experiment in the Data.
--Ami Yogeshbhai Gajjar: Front End, add comments to train code, and Experiment in the data list.
--Syeda Maria Manzoor: None.
+- **Mohammed Darras**: Data Training, Experiment in food list.
+- **Tony Han**: Data Training, Experiment in food list.
+- **Prince Duru**: API, Deployment, Experiment in the Data.
+- **Ami Yogeshbhai Gajjar**: Front End, add comments to train code, and Experiment in the data list.
+- **Syeda Maria Manzoor**: None.
