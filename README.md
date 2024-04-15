@@ -24,13 +24,15 @@ labelI = 'club_sandwich'
 labelJ = 'onion_rings'
 ```
 
-## Deployment
+### Deployment
 
 Deploying your model is straightforward:
 
 1. Replace the existing server/export.pkl with your newly trained model file.
 2. If you wish to modify the front-end, update the HTML/CSS files to match your desired aesthetics and functionality.
-3. Build the Docker container using the following command
+3. Ensure you have Docker running.
+4. On terminal make sure you are in directory "...\AIproject" or whatever you named this project folder.
+5. Build the Docker container using the following command.
 
 ```bash
 docker build -t group6_classifier . && docker run --rm -it -p 5000:5000 group6_classifier
@@ -47,3 +49,11 @@ If your application is Docker-containerized, initiate it with:
 ```bash
 docker run -p 5000:5000 group6_classifier
 ```
+
+### Group Contribution
+
+-Mohammed Darras: Data Training, Experiment in food list.
+-Tony Han: Data Training, Experiment in food list.
+-Prince Duru: API, Deployment, Experiment in the Data.
+-Ami Yogeshbhai Gajjar: Front End, add comments to train code, and Experiment in the data list.
+-Syeda Maria Manzoor: None.
